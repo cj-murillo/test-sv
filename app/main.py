@@ -7,6 +7,11 @@ app = FastAPI(
 )
 
 
+@app.get("/hello")
+def get_hello():
+    return {"message": "HOLA"}
+
+
 @app.get("/version")
 def get_version():
     return {"version": __version__}
