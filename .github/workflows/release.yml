@@ -35,6 +35,8 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+      - name: Fetch full Git history including tags
+        run: git fetch --prune --unshallow --tags
 
       - name: Run semantic-release
         run: semantic-release publish
