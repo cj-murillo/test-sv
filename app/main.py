@@ -17,11 +17,6 @@ def get_bye():
     return {"message": "BYE"}
 
 
-@app.get("/bye2")
-def get_bye():
-    return {"message": "BYE 2.0"}
-
-
 @app.get("/version")
 def get_version():
     return {"version": __version__}
