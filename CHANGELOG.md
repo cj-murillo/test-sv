@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.0.1 (2025-04-16)
+
+### Bug Fixes
+
+- Uplaod Tags
+  ([`dcb06a5`](https://github.com/cj-murillo/test-sv/commit/dcb06a531288aec68cae1fcb738f1947fc06fd80))
+
+
 ## v1.0.0 (2025-04-16)
 
 ### Features
