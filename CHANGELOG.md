@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.0.0 (2025-04-16)
+
+### Features
+
+- Quit /bye2 endpoint
+  ([`e1d0190`](https://github.com/cj-murillo/test-sv/commit/e1d0190af56ff449222524ce6622bf9c0a29b45c))
+
+
 ## v0.3.0 (2025-04-16)
 
 ### Bug Fixes
