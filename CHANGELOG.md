@@ -1,6 +1,22 @@
 # CHANGELOG
 
 
+## v0.3.0 (2025-04-16)
+
+### Bug Fixes
+
+- Add Release Publish
+  ([`e23bdcc`](https://github.com/cj-murillo/test-sv/commit/e23bdcca9a926cde98bd9b554f3091cd2cb0fb31))
+
+- Fix /bye2 endpoint message
+  ([`b687a8f`](https://github.com/cj-murillo/test-sv/commit/b687a8f02c6db16fc1eb5123bb5083530f08940e))
+
+### Features
+
+- Add new Endpoint /bye2
+  ([`bd4036b`](https://github.com/cj-murillo/test-sv/commit/bd4036b8364af3ce93f811b88ca9940ffca5860d))
+
+
 ## v0.2.0 (2025-04-16)
 
 ### Bug Fixes
