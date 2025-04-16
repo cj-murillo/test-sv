@@ -12,6 +12,11 @@ def get_hello():
     return {"message": "HOLA"}
 
 
+@app.get("/bye")
+def get_bye():
+    return {"message": "BYE"}
+
+
 @app.get("/version")
 def get_version():
     return {"version": __version__}
