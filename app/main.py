@@ -11,6 +11,7 @@ app = FastAPI(
 def get_version():
     return {"version": __version__}
 
+
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the FastAPI app"}
