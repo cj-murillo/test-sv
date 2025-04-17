@@ -1,0 +1,30 @@
+[project]
+name = "semantic-version"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jordan Murillo",email = "jordan.murillo@cedia.org.ec"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version = {from = "app", path = "app/__init__.py"}
+upload_to_pypi = false
+branch = "main"
+changelog_file = "CHANGELOG.md"
+
+[tool.poetry.scripts]
+release = "semantic_release.app:main"
+
+[tool.poetry.group.dev.dependencies]
+python-semantic-release = "^9.21.0"
+
